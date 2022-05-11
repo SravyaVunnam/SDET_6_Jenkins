@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.TESTNG.practice.TC02SelectingDropdownInOrganisationUsingTestNG">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="createorg_dd"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TESTNG.practice.TC02SelectingDropdownInOrganisationUsingTestNG -->
+      <class name="com.TESTNG.practice.TC_01WithTestNG">
+        <methods>
+          <include name="createorg"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TESTNG.practice.TC_01WithTestNG -->
+      <class name="com.TESTNG.practice.TC03_WithTestNg">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="createcontact_org"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TESTNG.practice.TC03_WithTestNg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.TESTNG.practice.TC02SelectingDropdownInOrganisationUsingTestNG">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="createorg_dd"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TESTNG.practice.TC02SelectingDropdownInOrganisationUsingTestNG -->
+      <class name="com.TESTNG.practice.TC_01WithTestNG">
+        <methods>
+          <include name="createorg"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TESTNG.practice.TC_01WithTestNG -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
